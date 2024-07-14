@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: black;">
+    <section>
+    <div class="header1">
+        Contact Form 
+    </div>
+    <div class="container">
+        <div class="icon1">
+                  <i class="fa-solid fa-location-dot"></i>
+        </div>
+            <div class="icon1-text">
+                  <span style="color: rgba(185, 135, 41, 0.87);"> Address:</span><br>198 West 21th Street,<br> Suite 721 New York NY <br> 10016
+            </div>
+
+        <div class="icon2">
+                 <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="icon2-text">
+                 <span style="color: rgba(185, 135, 41, 0.87);">  Phone:</span><br>+1235 2355 98
+        </div>
+
+        <div class="icon3">
+                 <i class="fa-solid fa-paper-plane"></i>
+        </div>
+        <div class="icon3-text">
+                 <span style="color: rgba(185, 135, 41, 0.87);">  Email:</span><br>info@yoursite.com
+        </div>
+    </div>  
+    </section>
+    <section>
+        <div class="header2">
+            Get In Contact With Us 
+        </div>
+        <div class="contact-form-container">
+            <form novalidate>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="Name" required>
+                    <div id="invalid-name" style="color: red; display: none;"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    <div id="invalid-email" style="color: red; display: none;"></div>
+                </div>
+              
+                <div class="form-group">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                    <div id="invalid-subject" style="color: red; display: none;"></div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                    <div id="invalid-message" style="color: red; display: none;"></div>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
